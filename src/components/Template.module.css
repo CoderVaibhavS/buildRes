@@ -1,0 +1,112 @@
+/* template size */
+.template{
+    width: 40%;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.pageDivide{
+    display: flex;
+    flex-direction: row;
+}
+
+/* left portion */
+.pageleft{
+    width: 60%;
+}
+
+.pageleft > div, .pageright > div{
+    padding: 10%;
+}
+
+.name{
+    margin-top: 0;
+    box-shadow: 0 2px;
+    padding-bottom: 10px;
+}
+
+.name, h3{
+    color: #5B6B7A;
+}
+
+h3{
+    box-shadow: 0 1px;
+    padding-bottom: 5px;
+}
+
+p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+ul{
+    padding: 0 17px;
+}
+
+li{
+    font-size: 0.8rem;
+}
+
+/* right colored portion */
+.pageright{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #5B6B7A;
+    color: white;
+}
+/* icons */
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon svg{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 0.8rem;
+    box-shadow: 0 1px white;
+}
+
+.pageright div > div{
+    margin: 15% 0;
+}
+
+.details p{
+    word-break: break-all;
+}
+
+@media (max-width: 1000px) {
+    .template{
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .template{
+        width: 54%;
+    }
+}
+
+@media (max-width: 800px) {
+    .template{
+        width: 100%;
+        position: static;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .template{
+        margin-top: 3rem;
+    }
+}

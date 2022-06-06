@@ -1,0 +1,10 @@
+.app_div{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .app_div{
+    flex-direction: column;
+  }
+}
